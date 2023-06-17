@@ -1,0 +1,131 @@
+.techproBanner {
+  background: url('../../../public/images/banner-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 25%;
+}
+
+
+.excellenceTransform {
+  color: #6228B1;
+}
+
+.techproBannerText {
+  font-family: 'Work Sans' !important;
+  text-align: center;
+  padding-top: 160px;
+}
+
+.techproBannerText p {
+  padding-top: 50px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: none;
+  font-weight: 100px;
+
+}
+
+.techproBannerText h2 {
+  color: white;
+  font-size: 55px;
+}
+
+
+//SERVICES
+// .techproServiceSection{
+
+// }
+
+.techproServiceSectionTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.techproServices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 80px 80px;
+  row-gap: 20px;
+}
+
+
+.techproServiceTypes {
+  display: inline-block;
+  color: #ffffffe1;
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(9.10401px);
+  border-radius: 10px ;
+  background: rgba(98, 40, 177, 0.1);
+  padding: 20px 28px 50px 20px;
+  font-size: 16px;
+  line-height: 1.3em;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+width: 90%;
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 10px 60px 30px;
+  }
+}
+
+.techproServiceTitle{
+  padding-bottom: 15px;
+}
+////HOW WE WORK
+
+.techproWorkDetailSectionTitle{
+  text-align: center;
+  font-size: 25px;
+  padding: 40px;
+}
+
+
+
+.techproWorkDetails {
+  display: inline-block;
+  color: #ffffffe1;
+  padding:0 30px ;
+  font-size: 16px;
+
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    position: absolute;
+    column-gap: 60px;
+   row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+.techproWorkDetail{
+ background-color: #0C0C0C;
+ padding: 30px;
+border-radius: 20px;
+position: relative;
+
+ h1{
+  padding: 10px;
+  font-size: 45px;
+  opacity: 75%;
+ }
+ h2{
+  padding: 7px;
+  font-size: 45px;
+  color: white;
+ }
+ p{
+  font-family: none;
+  font-size: 16px;
+ }
+ @media screen and (min-width: 768px) {
+left: 50%;
+}
+}
+
+.WantAnMvpSection{
+  color: #6228B1;
+}
