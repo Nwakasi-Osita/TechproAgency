@@ -8,10 +8,9 @@ export default function Nav() {
       <div className={styles.techproHeaderLink}>
         <div className={styles.techproTitle}><h4>TechPro Agency</h4>
         </div>
-        <div className={styles.techproStartUpButton}><p>Let&apos;s work together</p></div>
+        <div className={styles.techproStartUpButton}><a href="#"><p>Let&apos;s work together</p></a></div>
       </div>
-
-
+      
     </div>
     </>
   );

@@ -1,17 +1,41 @@
+.techproHeaderSection {
+  position: relative;
+}
+
 .techproHeaderLink {
   display: flex;
   justify-content: space-between;
-  padding: 60px 90px;
+  padding: 10px 20px;
+}
+@media screen and (min-width: 768px) {
+  .techproHeaderLink {
+    justify-content: space-between;
+    padding: 60px 90px;
+  }
 }
 
 .techproStartUpButton {
+  position: fixed;
   background-color: #6228B1;
   padding: 20px;
   border-radius: 10px;
+  font-size: 12px;
+  left: 85%;
+}
+@media screen and (min-width: 768px) {
+  .techproStartUpButton {
+    font-size: 16px;
+    padding: 20px;
+  }
 }
 
 .techproTitle {
   display: block;
   padding: 20px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .techproTitle {
+    font-size: 16px;
+  }
 }

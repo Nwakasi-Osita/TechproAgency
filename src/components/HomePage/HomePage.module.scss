@@ -3,9 +3,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 25%;
-}
+  padding-bottom: 12%;
 
+  @media screen and (min-width: 768px) {
+    padding-bottom: 25%;
+  }
+}
 
 .excellenceTransform {
   color: #6228B1;
@@ -14,118 +17,359 @@
 .techproBannerText {
   font-family: 'Work Sans' !important;
   text-align: center;
-  padding-top: 160px;
+  padding-top: 100px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 160px;
+  }
 }
 
 .techproBannerText p {
-  padding-top: 50px;
-  font-size: 20px;
+
+  padding: 50px 30px;
+  font-size: 16px;
   font-style: normal;
   font-family: none;
   font-weight: 100px;
+ 
 
+  @media screen and (min-width: 768px) {
+    padding-top: 50px;
+    font-size: 20px;
+  }
 }
 
 .techproBannerText h2 {
   color: white;
-  font-size: 55px;
+  font-size: 25px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 55px;
+  }
 }
 
+.techproDesignSection {
+  background: linear-gradient(rgba(181, 14, 14, 0.7), rgba(29, 195, 14, 0.7));
+  width: 100%;
 
-//SERVICES
-// .techproServiceSection{
-
-// }
+}
 
 .techproServiceSectionTitle {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 15px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+  }
 }
 
 .techproServices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 80px 80px;
-  row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  padding: 40px 40px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px 80px;
+    row-gap: 20px;
+  }
 }
 
 
 .techproServiceTypes {
-  display: inline-block;
+  // display: inline-block;
+
   color: #ffffffe1;
   border: 0.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(9.10401px);
-  border-radius: 10px ;
+  border-radius: 10px;
   background: rgba(98, 40, 177, 0.1);
-  padding: 20px 28px 50px 20px;
-  font-size: 16px;
-  line-height: 1.3em;
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-width: 90%;
+  padding: 10px 20px 35px 8px;
+  // padding: 20px 10px 60px 30px;
+  font-size: 12px;
+
+  // height: 150px;
+  // width: 75%;
+  p {
+    font-size: 12px;
+  }
+
   @media screen and (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
     padding: 20px 10px 60px 30px;
+    font-size: 16px;
+    line-height: 1.3em;
+    height: 150px;
+    width: 75%;
+
+    p {
+      font-size: 16px;
+    }
   }
 }
 
-.techproServiceTitle{
+.techproServiceTitle {
   padding-bottom: 15px;
 }
+
 ////HOW WE WORK
 
-.techproWorkDetailSectionTitle{
+.techproWorkDetailSectionTitle {
   text-align: center;
-  font-size: 25px;
-  padding: 40px;
+  font-size: 15px;
+  padding: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+    padding: 40px;
+  }
 }
-
-
 
 .techproWorkDetails {
   display: inline-block;
   color: #ffffffe1;
-  padding:0 30px ;
+  padding: 0 30px;
   font-size: 16px;
-
+  padding-bottom: 30px;
 
   @media screen and (min-width: 768px) {
     display: grid;
-    position: absolute;
+    // position: absolute;
+    padding-right: 65%;
     column-gap: 60px;
-   row-gap: 20px;
+    row-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 130px;
+  }
+}
+
+.techproWorkDetail {
+  background-color: #0C0C0C;
+  padding: 15px;
+  border-radius: 20px;
+
+  h1 {
+    padding: 7px;
+    font-size: 25px;
+    opacity: 75%;
+
+    @media screen and (min-width: 768px) {
+      padding: 10px;
+      font-size: 45px;
+      opacity: 75%;
+    }
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h2 {
+    padding: 7px;
+    font-size: 25px;
+    color: white;
+
+    @media screen and (min-width: 768px) {
+      padding: 7px;
+      font-size: 45px;
+      color: white;
+    }
+  }
+
+  p {
+    font-family: none;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    left: 50%;
+    position: relative;
+    padding: 30px;
+
+    img {
+      width: auto;
+      object-fit: cover;
+    }
 
   }
 }
 
-.techproWorkDetail{
- background-color: #0C0C0C;
- padding: 30px;
-border-radius: 20px;
-position: relative;
 
- h1{
-  padding: 10px;
-  font-size: 45px;
-  opacity: 75%;
- }
- h2{
-  padding: 7px;
-  font-size: 45px;
+// Want an MVP for your start up
+.wantAnMvpSection {
+  background-color: #6228B1;
   color: white;
- }
- p{
-  font-family: none;
-  font-size: 16px;
- }
- @media screen and (min-width: 768px) {
-left: 50%;
-}
 }
 
-.WantAnMvpSection{
-  color: #6228B1;
+.wantAnMvpSectionHeading {
+  text-align: center;
+
+  h1 {
+    font-size: 25px;
+    padding-top: 30px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 40px;
+    }
+  }
+
+  p {
+    font-family: none;
+    line-height: 20px;
+    padding: 0 30px;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 10px;
+      font-size: 16px;
+    }
+  }
+}
+
+
+.wantAnMvpSteps {
+  display: grid;
+  padding: 30px 64px;
+  gap: 24px;
+  color: #fff;
+  font-family: none;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 200px;
+  }
+}
+
+.wantAnMvpStep {
+  padding: 15px;
+  font-family: none;
+  background: rgba(98, 40, 177, 0.1);
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  backdrop-filter: blur(9.10401px);
+
+  h6 {
+    padding: 7px 7px;
+    font-size: 12px;
+
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 30px;
+    font-family: none;
+    background: rgba(98, 40, 177, 0.1);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(9.10401px);
+
+    h6 {
+      padding: 15px 10px;
+      font-size: 16px;
+
+    }
+  }
+}
+
+.elevatingDigitalPresense {
+  padding: 50px 30px;
+  font-size: 25px;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 190px;
+    font-size: 35px;
+
+  }
+}
+
+.contactSection {
+
+  display: grid;
+
+  padding: 0 90px;
+
+  img {
+    object-fit: cover;
+    // width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding: 0 190px;
+    font-size: 30px;
+    column-gap: 40px;
+    display: flex;
+  }
+}
+
+.contactSectionOrText {
+  opacity: 55%;
+  font-size: 35px;
+}
+
+.contactSectionWriteToUs {
+  // justify-content: center;
+  //   font-size: 15px;
+  // padding-right:100px ;
+
+  font-size: 25px;
+  border-bottom: 7px solid rgba(255, 255, 255, 0.3);
+
+  @media screen and (min-width: 768px) {
+    // border-bottom: 7px solid rgba(255, 255, 255, 0.3);
+    font-size: 35px;
+
+  }
+}
+
+.contactSectionSetUpACall {
+  font-size: 25px;
+  border-bottom: 7px solid rgba(255, 255, 255, 0.3);
+
+  @media screen and (min-width: 768px) {
+    // border-bottom: 7px solid rgba(255, 255, 255, 0.3);
+    font-size: 35px;
+
+  }
+}
+
+
+.techproFooterSection {
+  background-color: #6228B1;
+
+
+
+  @media screen and (min-width: 768px) {
+
+    justify-content: center;
+
+  }
+}
+
+.techproFooter {
+  display: flex;
+  gap: 50px;
+  padding: 40px 20px;
+
+  @media screen and (min-width: 768px) {
+    // grid-template-columns: repeat(3, 1fr);
+    // padding: 20px 300px;
+    gap: 300px;
+    font-size: 25px;
+    border-bottom: 7px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 50px;
+    padding: 80px 190px;
+  }
+}
+
+
+
+.techproFooterText {
+  font-size: 16px;
+}
+
+.techproFooterCopyRightText {
+  opacity: 55%;
 }

@@ -21,6 +21,15 @@ export default function HomePage() {
             <p>Are you ready to revolutionize your digital presence? Look no further than TechPro Agency - your ultimate <br /> partner in harnessing the power of technology to transform your business.We are a dynamic agency specializing <br />
               in designing and developing cutting-edge applications and APIs taliored to your unique needs</p>
           </div>
+          <div className={styles.techproDesignSection}>
+
+{/* <h2>nhskhsdkhshkhhhhhhhhhhhhhh <br /> hhhhhhskkkkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkk <br />kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+k <br /> kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+kkkkkkkkkkk <br />kkkkkkkkkkkkkkkkkkkkkkkkkk</h2> */}
+
+</div>
+
         </div>
 
         <div className={styles.techproServiceSection}>
@@ -140,24 +149,75 @@ export default function HomePage() {
           </div>
         </div>
 
+
         {/* /////Want an MVP for your start up/// */}
 
-        <footer className={styles.WantAnMvpSection}>
-          <div className={styles.WantAnMvpSectionHeading}>
+        <div className={styles.wantAnMvpSection}>
+          <div className={styles.wantAnMvpSectionHeading}>
             <h1>Want an MVP for your start up</h1>
             <p>Instead of spending lots of time and money on complicated development processes, <br /> we start by making a basic model that facilitates swift adaptations or seamless <br /> scalability with the inclusion of supplementary technologies, if required</p>
           </div>
+          <div className={styles.wantAnMvpSteps}>
 
+            <div className={styles.wantAnMvpStep}>
+              <h6>DAY 1 - 2</h6>
+              <p>Once you tell us about your idea, <br /> goals, and needs, we carefully <br /> examine and analyze them.</p>
+            </div>
 
-          
-        </footer>
+            <div className={styles.wantAnMvpStep}>
+              <h6>DAY 3 - 30</h6>
+              <p>We employ the best design and <br /> code solution that fits your <br /> requirements, and then we <br /> construct the prototype.</p>
+            </div>
 
+            <div className={styles.wantAnMvpStep}>
+              <h6>DAY 30 - 45</h6>
+              <p>We put the prototype to the test <br /> with real users, discovering areas for <br /> improvement and figuring out how <br /> to make it better.</p>
+            </div>
 
+            <div className={styles.wantAnMvpStep}>
+              <h6>NEXT ITERATION</h6>
+              <p>We make refinements and <br /> adjustments to enhance its quality <br /> or expand its capacity to <br /> accommodate millions of users.</p>
+            </div>
+          </div>
 
+          <div className={styles.elevatingDigitalPresense}>
+            <h2>  Ready to elevate your digital <br /> presence?</h2>
+          </div>
 
+          <div className={styles.contactSection}>
+            <div className={styles.contactSectionWriteToUs}>
+              <h2> Write to us <img src="images/arrow.png" />  </h2>
+            </div>
+            <div className={styles.contactSectionOrText}>
+              <h3>or</h3>
+            </div>
+            <div className={styles.contactSectionSetUpACall}>
+              <h2>Set up a call with us <img src="images/arrow.png" /></h2>
+            </div>
 
+          </div>
 
+        </div>
 
+        <div className={styles.techproFooterSection}>
+
+          <div className={styles.techproFooter}>
+            <div className={styles.techproFooterText}>
+              <h4>TechPro Agency</h4>
+
+            </div>
+            <div className={styles.techproFooterCopyRightText}>
+              <h4>Copyright 2023 All Right Reserved TechPro Agency</h4>
+
+            </div>
+
+            <div className={styles.techproFooterText}>
+              <h4>Copy 2023  Agency</h4>
+
+            </div>
+          </div>
+
+        </div>
 
 
 
