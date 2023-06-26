@@ -1,36 +1,50 @@
-.techproHeaderSection{
-position: relative;
+.techproHeaderSection {
+  position: relative;
 }
 
 .techproHeaderLink {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
-
+  padding: 10px 10px;
+  // position: fixed;
+  // background-color: rgb(98, 40, 177);
+  // padding: 20px;
+  // border-radius: 10px;
+  font-size: 12px;
+  // left: 55%;
+  z-index:1;
   @media screen and (min-width: 768px) {
     // grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     padding: 60px 90px;
   }
 }
-.techproHeaderLink:hover{
-  opacity: 0.9;
-}
+
+// .techproHeaderLink:hover{
+//   background: linear-gradient(rgba(181, 14, 14, 0.7), rgba(29, 195, 14, 0.7));
+// }
 
 .techproStartUpButton {
   position: fixed;
-  overflow: hidden;
-  background-color: #6228B1;
-  padding: 20px;
+  background-color: rgb(98, 40, 177);
+  padding: 16px;
   border-radius: 10px;
   font-size: 12px;
-  left: 85%;
-
+  // left: 55%;
+  margin-left: 60%;
+  z-index:1;
+  //  position:relative;
   @media screen and (min-width: 768px) {
     font-size: 16px;
     padding: 20px;
+    margin-left: 80%;
   }
 }
+
+.techproStartUpButton:hover {
+  background: linear-gradient(rgba(98, 40, 177, 1), rgb(110, 68, 169));
+}
+
 
 .techproTitle {
   display: block;

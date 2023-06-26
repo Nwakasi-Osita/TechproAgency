@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 12%;
+  position: relative;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .techproBanner {
@@ -18,16 +20,16 @@
 .techproBannerText {
   font-family: "Work Sans" !important;
   text-align: center;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 @media screen and (min-width: 768px) {
   .techproBannerText {
-    padding-top: 160px;
+    margin-top: 160px;
   }
 }
 
 .techproBannerText p {
-  padding: 50px 30px;
+  margin: 50px 30px;
   font-size: 16px;
   font-style: normal;
   font-family: none;
@@ -35,7 +37,7 @@
 }
 @media screen and (min-width: 768px) {
   .techproBannerText p {
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 20px;
   }
 }
@@ -50,9 +52,18 @@
   }
 }
 
-.techproDesignSection {
-  background: linear-gradient(rgba(181, 14, 14, 0.7), rgba(29, 195, 14, 0.7));
+.techproBlurDesign {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   width: 100%;
+  height: 95px;
+  bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .techproBlurDesign {
+    height: 630px;
+    bottom: 0;
+  }
 }
 
 .techproServiceSectionTitle {
@@ -70,12 +81,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  padding: 40px 40px;
+  margin: 40px 40px;
 }
 @media screen and (min-width: 768px) {
   .techproServices {
     grid-template-columns: repeat(3, 1fr);
-    padding: 80px 80px;
+    margin: 80px 80px;
     row-gap: 20px;
   }
 }
@@ -114,31 +125,31 @@
 .techproWorkDetailSectionTitle {
   text-align: center;
   font-size: 15px;
-  padding: 20px;
+  margin: 20px;
 }
 @media screen and (min-width: 768px) {
   .techproWorkDetailSectionTitle {
     font-size: 25px;
-    padding: 40px;
+    margin: 40px;
   }
 }
 
 .techproWorkDetails {
   display: inline-block;
   color: rgba(255, 255, 255, 0.8823529412);
-  padding: 0 30px;
+  margin: 0 30px;
   font-size: 16px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .techproWorkDetails {
     display: grid;
-    padding-right: 65%;
+    margin-right: 65%;
     -moz-column-gap: 60px;
          column-gap: 60px;
     row-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 130px;
+    margin-bottom: 130px;
   }
 }
 
@@ -213,18 +224,18 @@
 .wantAnMvpSectionHeading p {
   font-family: none;
   line-height: 20px;
-  padding: 0 30px;
+  margin: 30px;
 }
 @media screen and (min-width: 768px) {
   .wantAnMvpSectionHeading p {
-    padding-top: 10px;
+    margin-top: 10px;
     font-size: 16px;
   }
 }
 
 .wantAnMvpSteps {
   display: grid;
-  padding: 30px 64px;
+  margin: 30px 64px;
   gap: 24px;
   color: #fff;
   font-family: none;
@@ -232,12 +243,12 @@
 @media screen and (min-width: 768px) {
   .wantAnMvpSteps {
     grid-template-columns: repeat(4, 1fr);
-    padding: 50px 200px;
+    margin: 50px 200px;
   }
 }
 
 .wantAnMvpStep {
-  padding: 15px;
+  padding: 10px;
   font-family: none;
   background: rgba(98, 40, 177, 0.1);
   border: 0.5px solid rgba(255, 255, 255, 0.3);
@@ -251,7 +262,7 @@
 }
 @media screen and (min-width: 768px) {
   .wantAnMvpStep {
-    padding: 30px;
+    padding: 10px 10px;
     font-family: none;
     background: rgba(98, 40, 177, 0.1);
     border: 0.5px solid rgba(255, 255, 255, 0.3);
@@ -266,19 +277,19 @@
 }
 
 .elevatingDigitalPresense {
-  padding: 50px 30px;
+  margin: 50px 30px;
   font-size: 25px;
 }
 @media screen and (min-width: 768px) {
   .elevatingDigitalPresense {
-    padding: 100px 190px;
+    margin: 100px 190px;
     font-size: 35px;
   }
 }
 
 .contactSection {
   display: grid;
-  padding: 0 90px;
+  margin: 0 90px;
 }
 .contactSection img {
   -o-object-fit: cover;
@@ -287,7 +298,7 @@
 @media screen and (min-width: 768px) {
   .contactSection {
     display: flex;
-    padding: 0 190px;
+    margin: 0 190px;
     font-size: 30px;
     -moz-column-gap: 40px;
          column-gap: 40px;
@@ -339,7 +350,6 @@
     gap: 300px;
     font-size: 25px;
     border-bottom: 7px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 50px;
     padding: 80px 190px;
   }
 }

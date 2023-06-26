@@ -6,7 +6,7 @@ export default function Nav() {
     <>
     <div className={styles.techproHeaderSection}>
       <div className={styles.techproHeaderLink}>
-        <div className={styles.techproTitle}><h4>TechPro Agency</h4>
+        <div className={styles.techproTitle}><a href="#"><h4>TechPro Agency</h4></a>
         </div>
         <div className={styles.techproStartUpButton}><a href="#"><p>Let&apos;s work together</p></a></div>
       </div>
