@@ -17,19 +17,16 @@
 }
 
 .techproStartUpButton {
-  position: fixed;
   background-color: rgb(98, 40, 177);
-  padding: 16px;
+  padding: 20px;
   border-radius: 10px;
   font-size: 12px;
-  margin-left: 60%;
   z-index: 1;
 }
 @media screen and (min-width: 768px) {
   .techproStartUpButton {
     font-size: 16px;
     padding: 20px;
-    margin-left: 80%;
   }
 }
 
@@ -39,11 +36,12 @@
 
 .techproTitle {
   display: block;
-  padding: 20px;
-  font-size: 12px;
+  padding: 16px;
+  font-size: 16px;
 }
 @media screen and (min-width: 768px) {
   .techproTitle {
     font-size: 16px;
+    padding: 20px;
   }
 }

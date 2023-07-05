@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 12%;
+  padding-bottom: 7%;
   position: relative;
   overflow: hidden;
 }
@@ -20,7 +20,7 @@
 .techproBannerText {
   font-family: "Work Sans" !important;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 @media screen and (min-width: 768px) {
   .techproBannerText {
@@ -29,16 +29,19 @@
 }
 
 .techproBannerText p {
-  margin: 50px 30px;
+  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-family: none;
   font-weight: 100px;
+  max-width: 470px;
+  margin: 30px auto;
 }
 @media screen and (min-width: 768px) {
   .techproBannerText p {
-    margin-top: 50px;
     font-size: 20px;
+    max-width: 770px;
+    margin: 50px auto;
   }
 }
 
@@ -56,7 +59,7 @@
   position: absolute;
   background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   width: 100%;
-  height: 95px;
+  height: 110px;
   bottom: 0;
 }
 @media screen and (min-width: 768px) {
@@ -79,7 +82,7 @@
 
 .techproServices {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   margin: 40px 40px;
 }
@@ -95,7 +98,7 @@
   color: rgba(255, 255, 255, 0.8823529412);
   border: 0.5px solid rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(9.10401px);
-  backdrop-filter: blur(9.10401px);
+          backdrop-filter: blur(9.10401px);
   border-radius: 10px;
   background: rgba(98, 40, 177, 0.1);
   padding: 10px 20px 35px 8px;
@@ -135,19 +138,17 @@
 }
 
 .techproWorkDetails {
-  display: inline-block;
+  display: grid;
   color: rgba(255, 255, 255, 0.8823529412);
-  margin: 0 30px;
+  margin: 30px 30px;
   font-size: 16px;
   margin-bottom: 30px;
+  gap: 40px;
 }
 @media screen and (min-width: 768px) {
   .techproWorkDetails {
     display: grid;
     margin-right: 65%;
-    -moz-column-gap: 60px;
-    column-gap: 60px;
-    row-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 130px;
   }
@@ -173,7 +174,7 @@
 .techproWorkDetail img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .techproWorkDetail h2 {
   padding: 7px;
@@ -200,7 +201,7 @@
   .techproWorkDetail img {
     width: auto;
     -o-object-fit: cover;
-    object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -224,12 +225,15 @@
 .wantAnMvpSectionHeading p {
   font-family: none;
   line-height: 20px;
-  margin: 30px;
+  max-width: 470px;
+  margin: 10px auto;
 }
 @media screen and (min-width: 768px) {
   .wantAnMvpSectionHeading p {
     margin-top: 10px;
     font-size: 16px;
+    max-width: 700px;
+    margin: 20px auto;
   }
 }
 
@@ -244,6 +248,7 @@
   .wantAnMvpSteps {
     grid-template-columns: repeat(4, 1fr);
     margin: 50px 200px;
+    padding-bottom: 100px;
   }
 }
 
@@ -254,7 +259,7 @@
   border: 0.5px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   -webkit-backdrop-filter: blur(9.10401px);
-  backdrop-filter: blur(9.10401px);
+          backdrop-filter: blur(9.10401px);
 }
 .wantAnMvpStep h6 {
   padding: 7px 7px;
@@ -268,7 +273,7 @@
     border: 0.5px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     -webkit-backdrop-filter: blur(9.10401px);
-    backdrop-filter: blur(9.10401px);
+            backdrop-filter: blur(9.10401px);
   }
   .wantAnMvpStep h6 {
     padding: 15px 10px;
@@ -277,23 +282,26 @@
 }
 
 .elevatingDigitalPresense {
-  margin: 50px 30px;
-  font-size: 25px;
+  margin: 0 60px;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .elevatingDigitalPresense {
-    margin: 100px 190px;
-    font-size: 35px;
+    margin: 0 190px;
+    font-size: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .contactSection {
   display: grid;
-  margin: 0 90px;
+  margin: 0 60px;
+  font-size: 20px;
 }
 .contactSection img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (min-width: 768px) {
   .contactSection {
@@ -301,7 +309,7 @@
     margin: 0 190px;
     font-size: 30px;
     -moz-column-gap: 40px;
-    column-gap: 40px;
+         column-gap: 40px;
     display: flex;
   }
 }
@@ -312,22 +320,22 @@
 }
 
 .contactSectionWriteToUs {
-  font-size: 25px;
+  font-size: 20px;
   border-bottom: 7px solid rgba(255, 255, 255, 0.3);
 }
 @media screen and (min-width: 768px) {
   .contactSectionWriteToUs {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 .contactSectionSetUpACall {
-  font-size: 25px;
+  font-size: 20px;
   border-bottom: 7px solid rgba(255, 255, 255, 0.3);
 }
 @media screen and (min-width: 768px) {
   .contactSectionSetUpACall {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -355,9 +363,51 @@
 }
 
 .techproFooterText {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .techproFooterCopyRightText {
+  font-size: 12px;
   opacity: 55%;
+}
+@media screen and (min-width: 768px) {
+  .techproFooterCopyRightText {
+    font-size: 20px;
+  }
+}
+
+.techproFooterSocialMediaContact {
+  gap: 20px;
+  display: flex;
+}
+
+.contactLogo ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactLogo ul li {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactLogo ul li a {
+  text-decoration: none;
+  padding: 0 8px;
+}
+.contactLogo ul li a img {
+  width: 20px;
+}
+@media screen and (min-width: 768px) {
+  .contactLogo ul li a {
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  .contactLogo ul li a img {
+    width: 40px;
+  }
 }

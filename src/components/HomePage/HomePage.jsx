@@ -23,11 +23,10 @@ export default function HomePage() {
 
             <p>
               Are you ready to revolutionize your digital presence? Look no
-              further than TechPro Agency - your ultimate <br /> partner in
-              harnessing the power of technology to transform your business.We
-              are a dynamic agency specializing <br />
-              in designing and developing cutting-edge applications and APIs
-              taliored to your unique needs
+              further than TechPro Agency - your ultimate partner in harnessing
+              the power of technology to transform your business.We are a
+              dynamic agency specializing in designing and developing
+              cutting-edge applications and APIs taliored to your unique needs
             </p>
           </div>
           <div className={styles.techproBlurDesignSection}>
@@ -46,9 +45,8 @@ export default function HomePage() {
                 <h2>UI/UX Design</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
 
@@ -57,9 +55,8 @@ export default function HomePage() {
                 <h2>Web Development</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
 
@@ -68,9 +65,8 @@ export default function HomePage() {
                 <h2>System Design</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
 
@@ -79,9 +75,8 @@ export default function HomePage() {
                 <h2>Devops</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
 
@@ -90,9 +85,8 @@ export default function HomePage() {
                 <h2>Cloud Engineering</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
 
@@ -101,9 +95,8 @@ export default function HomePage() {
                 <h2>API Design and Development</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
 
@@ -112,9 +105,8 @@ export default function HomePage() {
                 <h2>Desktop App and Development</h2>
               </div>
               <p>
-                We create stunning and user-friendly <br />
-                applications for various platforms, including <br />
-                web, mobile, and desktop
+                We create stunning and user-friendly applications for various
+                platforms, including web, mobile, and desktop
               </p>
             </div>
           </div>
@@ -136,7 +128,7 @@ export default function HomePage() {
               <h2>Discovery</h2>
               <p>
                 We employ the best design and code solution that fits your{" "}
-                <br /> requirements, and then we construct the prototype.
+                requirements, and then we construct the prototype.
               </p>
             </div>
             <div className={styles.techproWorkDetail}>
@@ -147,7 +139,7 @@ export default function HomePage() {
               <h2>Strategy</h2>
               <p>
                 We employ the best design and code solution that fits your{" "}
-                <br /> requirements, and then we construct the prototype.
+                requirements, and then we construct the prototype.
               </p>
             </div>
             <div className={styles.techproWorkDetail}>
@@ -158,7 +150,7 @@ export default function HomePage() {
               <h2>Design</h2>
               <p>
                 We employ the best design and code solution that fits your{" "}
-                <br /> requirements, and then we construct the prototype.
+                requirements, and then we construct the prototype.
               </p>
             </div>
             <div className={styles.techproWorkDetail}>
@@ -169,7 +161,7 @@ export default function HomePage() {
               <h2>Development</h2>
               <p>
                 We employ the best design and code solution that fits your{" "}
-                <br /> requirements, and then we construct the prototype.
+                requirements, and then we construct the prototype.
               </p>
             </div>
           </div>
@@ -182,53 +174,47 @@ export default function HomePage() {
             <h1>Want an MVP for your start up</h1>
             <p>
               Instead of spending lots of time and money on complicated
-              development processes, <br /> we start by making a basic model
-              that facilitates swift adaptations or seamless <br /> scalability
-              with the inclusion of supplementary technologies, if required
+              development processes, we start by making a basic model that
+              facilitates swift adaptations or seamless scalability with the
+              inclusion of supplementary technologies, if required
             </p>
           </div>
           <div className={styles.wantAnMvpSteps}>
             <div className={styles.wantAnMvpStep}>
               <h6>DAY 1 - 2</h6>
               <p>
-                Once you tell us about your idea, <br /> goals, and needs, we
-                carefully <br /> examine and analyze them.
+                Once you tell us about your idea, goals, and needs, we carefully
+                examine and analyze them.
               </p>
             </div>
 
             <div className={styles.wantAnMvpStep}>
               <h6>DAY 3 - 30</h6>
               <p>
-                We employ the best design and <br /> code solution that fits
-                your <br /> requirements, and then we <br /> construct the
-                prototype.
+                We employ the best design and code solution that fits your
+                requirements, and then we construct the prototype.
               </p>
             </div>
 
             <div className={styles.wantAnMvpStep}>
               <h6>DAY 30 - 45</h6>
               <p>
-                We put the prototype to the test <br /> with real users,
-                discovering areas for <br /> improvement and figuring out how{" "}
-                <br /> to make it better.
+                We put the prototype to the test with real users, discovering
+                areas for improvement and figuring out how to make it better.
               </p>
             </div>
 
             <div className={styles.wantAnMvpStep}>
               <h6>NEXT ITERATION</h6>
               <p>
-                We make refinements and <br /> adjustments to enhance its
-                quality <br /> or expand its capacity to <br /> accommodate
-                millions of users.
+                We make refinements and adjustments to enhance its quality or
+                expand its capacity to accommodate millions of users.
               </p>
             </div>
           </div>
 
           <div className={styles.elevatingDigitalPresense}>
-            <h2>
-              {" "}
-              Ready to elevate your digital <br /> presence?
-            </h2>
+            <h2> Ready to elevate your digital presence?</h2>
           </div>
 
           <div className={styles.contactSection}>
@@ -252,14 +238,66 @@ export default function HomePage() {
         <div className={styles.techproFooterSection}>
           <div className={styles.techproFooter}>
             <div className={styles.techproFooterText}>
-              <h4>TechPro Agency</h4>
+              <h4>TechPro </h4>
             </div>
             <div className={styles.techproFooterCopyRightText}>
-              <h4>Copyright 2023 All Right Reserved TechPro Agency</h4>
+              <h4>Copyright 2023 All Right Reserved TechPro </h4>
             </div>
 
-            <div className={styles.techproFooterText}>
-              <h4>Copy 2023 Agency</h4>
+            <div className={styles.contactLogoSection}>
+              <div className={styles.contactLogo}>
+                <ul>
+                  <li>
+                    <a
+                      className={styles.fontawesome}
+                      href="https://www.twitter.com"
+                      target={"_blank"}
+                      referrerPolicy={"no-referrer"}
+                    >
+                      <img src="/images/Twitter.png" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className={styles.fontawesome}
+                      href="https://www.instagram.com"
+                      target={"_blank"}
+                      referrerPolicy={"no-referrer"}
+                    >
+                      <img src="/images/Instagram.png" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className={styles.fontawesome}
+                      href="https://www.facebook.com"
+                      target={"_blank"}
+                      referrerPolicy={"no-referrer"}
+                    >
+                      <img src="/images/Facebook.png" />
+                    </a>
+                  </li>
+
+                  {/* <li>
+                <a
+                  className={styles.fontawesome}
+                  href="#"
+                  target={"_blank"}
+                  referrerPolicy={"no-referrer"}
+                >
+                  <Image
+                    src="/images/twitter-icon.svg"
+                    width={20}
+                    height={20}
+                  />
+                </a>
+              </li> */}
+                </ul>
+              </div>
+
+              {/*END OF CONTACT LOGO */}
             </div>
           </div>
         </div>
